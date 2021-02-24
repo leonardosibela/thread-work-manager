@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Thread Work Manager</string>
+    <string name="save_button_text">Save when internet is on</string>
+</resources>
