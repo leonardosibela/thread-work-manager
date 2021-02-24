@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun onSaveClicked() {
-
+        val sendDataScheduler: SendDataScheduler = SendDataWorkManagerScheduler()
+        sendDataScheduler.schedule(this, "Some data to be sent")
     }
 }
